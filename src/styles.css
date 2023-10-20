@@ -2,3 +2,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+ @font-face {
+    font-family: 'GilroyRegular';
+    src: url('./font/SVN-Gilroy Regular.otf')
+ }
+ @font-face {
+    font-family: 'GilroyLine';
+    src: url('./font/SVN-Gilroy Light.otf')
+ }
+ @font-face {
+    font-family: 'GilroyBold';
+    src: url('./font/SVN-Gilroy Bold.otf')
+ }
+
+ @font-face {
+    font-family: 'GilroyMedium';
+    src: url('./font/SVN-Gilroy Medium.otf')
+ }
+ body{
+    font-family:GilroyRegular;
+    color:#4d4d4d;
+    font-size:14px;
+ }

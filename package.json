@@ -20,6 +20,7 @@
     "@angular/router": "^16.2.0",
     "jquery": "^3.7.1",
     "ng-zorro-antd": "^16.2.1",
+    "ngx-currency": "^4.0.0",
     "ngx-owl-carousel-o": "^16.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

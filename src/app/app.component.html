@@ -1,6 +1,6 @@
 
 /*trang đăng ký*/
-<!-- <main class="w-full  z-[0] relative min-h-[100vh] bg-cover bg-repeat-round 600:bg-banner pb-[30px]   max-641:bg-moblie-banner">
+<main class="w-full  z-[0] relative min-h-[100vh] bg-cover bg-repeat-round 600:bg-banner pb-[30px]   max-641:bg-moblie-banner">
      <header>
         <section class="section-header 1050:w-[1050px] mx-auto 960:pt-[24px] flex justify-between items-center   max-960:w-full  max-960:pt-[27.2px]  max-960:px-[20.4px]">
             <div class="logo ">
@@ -31,7 +31,7 @@
                         <form action="" class="pt-[32px]  h-auto min-h-[534px] text-center 900:w-[420px]   text-[#343434] px-[24px] max-480:px-[15px] rounded-[24px] bg-white relative shadow-[0px_10px_50px_rgba(0,0,0,0.2),inset_0px_4px_0px_#fbea58] ">
                             <p class="form-title  bg-clip-text leading-[47px] mb-[35px] font-GilroyBold font-[700] text-[24px] max-480:text-[20px] text-center block text-transparent bg-gradient-to-r from-blue-600 via-transparent to-green-400"
                             style="background-image: linear-gradient(89.21deg, rgb(38, 60, 135) 10.58%, rgb(1, 176, 85) 93.7%)"
-                            >
+                        >
                                 ĐĂNG KÝ KHOẢN VAY</p>
                               <div class="input-container flex flex-wrap">
                                 <div class="wrap-input w-full relative mb-[27px]">
@@ -56,7 +56,7 @@
                                 <div class="wrap-input w-[calc(50%-8px)] mr-[8px] relative mb-[27px]">
                                     <p class="sub-title-input absolute top-[-7px] px-[2.5px] z-[3] left-[13px] text-[#000000] text-[12px] bg-white font-GilroyLine max-480:text-[11px]">Số tiền vay</p>
                                         <div class="relative">
-                                            <input class="w-full outline-blue-500 rounded-[10px] border-[#E6E6E6] border-[1px] text-[14px] h-[40px] px-[16px] max-480:text-[12px]" placeholder="VD: 50 000 000" type="number">
+                                            <input  class="w-full !text-left outline-blue-500 rounded-[10px] border-[#E6E6E6] border-[1px] text-[14px] h-[40px] px-[16px] max-480:text-[12px] text-[#343434] font-GilroyMedium" name="myInput" [defaultValue]=null placeholder="VD: 50 000 000" [(ngModel)]="myNumber" currencyMask [options]="{prefix:'', thousands: ' ',precision:0}" type="text">
                                             <span class="text-[14px] absolute top-[10px] right-[13px] bg-white pl-[5px]">VND</span>
                                         </div>
 
@@ -480,9 +480,9 @@
             © 2022. All rights reserved by VPBank
         </div>
     </footer>
-    </main> -->
+    </main>
 /*trang đăng nhập*/
-<div class="main bg-[#F4F7F8]">
+<!-- <div class="main bg-[#F4F7F8]">
     <header class="w-full h-[76px] z-[3] fixed top-0 flex items-center justify-center  max-960:rounded-br-[16px]" style="background: linear-gradient(90deg, #1D4289 0%, #00B74F 76.56%);">
         <div class="header-content 960:w-[800px] max-960:w-full items-center">
             <div class="header-logo">
@@ -539,4 +539,4 @@
            </div>
         </div>
     </footer>
-</div>
+</div> -->

@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import { DecimalPipe } from '@angular/common';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
+  providers: [DecimalPipe]
 })
 export class AppComponent {
   title = 'VpBank';
@@ -21,6 +24,7 @@ export class AppComponent {
     ques_title[index].classList.toggle('border-b');
   };
   showQuestion = () => {
+    console.log(this.myNumber);
     const ques = document.querySelectorAll('.question-item');
     for (let i = 5; i < 10; i++) {
       ques[i].classList.toggle('hidden');
@@ -29,7 +33,6 @@ export class AppComponent {
     btn_ques?.classList.toggle('hidden');
   };
 
-  limit: number = 10; // <==== Edit this number to limit API results
   customOptions: OwlOptions = {
     dots: true,
     nav: true,
@@ -41,4 +44,6 @@ export class AppComponent {
       }
     },
   };
+  myNumber: any;
+
 }

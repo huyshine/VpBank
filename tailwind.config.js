@@ -36,6 +36,7 @@ module.exports = {
     fontFamily: {
       'GilroyMedium': ['GilroyMedium', 'Arial'],
       'GilroyLine': ['GilroyLine', 'Arial'],
+      'GilroyLineItalic': ['GilroyLineItalic', 'Arial'],
       'GilroyBold': ['GilroyBold', 'Arial'],
       'question-text': ["Roboto", "Helvetica", "Arial"]
     },
